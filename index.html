@@ -417,10 +417,10 @@
         </div>
         <div class="form-footer">
           <p class="form-footer__text">Підпишіться на розсилку</p>
-          <form action="">
-            <input type="email" name="email-footer" id="email-footer" placeholder="Email">
-            <button type="submit">Підписатися 
-              <svg width="24" height="24">
+          <form action="" class="form-footer__form">
+            <input class="form-footer__input" type="email" name="email-footer" id="email-footer" placeholder="Email">
+            <button class="form-footer__btn" type="submit">Підписатися 
+              <svg class="form-footer__svg" width="24" height="24">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>
@@ -430,13 +430,13 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <button type="button" class="close-button" data-modal-close>
+      <button type="button" class="modal__close-button" data-modal-close>
         <svg width="11px" height="11px">
           <use href="./images/sprite.svg#icon-close-button"></use>
         </svg>
       </button>
       <form action="" class="form">
-        <p>Залиште свої дані, ми вам передзвонимо</p>
+        <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
         <div class="form-field">
           <label for="name">Ім'я</label>
           <div class="input-wrap">
